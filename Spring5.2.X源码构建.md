@@ -1,12 +1,12 @@
 [toc]
 
 #### 1、从[gradle官网](https://gradle.org/releases/)下载gradle-5.6.4.zip压缩包
-# <img src="src/docs/asciidoc/images/spring-framework.png" width="80" height="80">
-![image-20220218102906028](.\imgs\image-20220218102906028.png)
+# <img src="src/docs/asciidoc/images/image-20220218102906028.png">
 
 #### 2、解压缩，配置环境变量，测试是否安装成功
 
-解压到E盘下的Dev-RunTime文件下，并在E:\Dev-RunTime\gradle-5.6.4\init.d路径下创建init.gradle文件![image-20220218103433844](.\imgs\image-20220218103433844.png)
+解压到E盘下的Dev-RunTime文件下，并在E:\Dev-RunTime\gradle-5.6.4\init.d路径下创建init.gradle文件
+![image-20220218103433844](.\imgs\image-20220218103433844.png)
 
 
 
