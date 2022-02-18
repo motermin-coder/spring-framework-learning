@@ -285,6 +285,7 @@ configure(allprojects) { project ->
 		resolutionStrategy {
 			cacheChangingModulesFor 0, "seconds"
 			cacheDynamicVersionsFor 0, "seconds"
+			force 'xml-apis:xml-apis:1.4.01'
 		}
 	}
 }
