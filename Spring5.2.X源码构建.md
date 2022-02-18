@@ -6,7 +6,8 @@
 #### 2、解压缩，配置环境变量，测试是否安装成功
 
 解压到E盘下的Dev-RunTime文件下，并在E:\Dev-RunTime\gradle-5.6.4\init.d路径下创建init.gradle文件
-![image-20220218103433844](.\imgs\image-20220218103433844.png)
+# <img src="src/docs/asciidoc/images/image-20220218103433844.png">
+
 
 
 
@@ -33,28 +34,23 @@ allprojects {
 
 新建GRADLE_HOME环境变量
 
-![image-20220218103952392](.\imgs\image-20220218103952392.png)
-
+# <img src="src/docs/asciidoc/images/image-20220218103952392.png">
 新建GRADLE_USER_HOME环境变量指向的位置为jar仓库，可以为你的maven仓库
-
-![image-20220218104012290](.\imgs\image-20220218104012290.png)
+# <img src="src/docs/asciidoc/images/image-20220218104012290.png">
 
 
 
 Path环境变量追加如下
 
-![image-20220218104228081](.\imgs\image-20220218104228081.png)
-
+# <img src="src/docs/asciidoc/images/image-20220218104228081.png">
 
 
 测试是否安装成功
 
-![image-20220218104500358](.\imgs\image-20220218104500358.png)
-
+# <img src="src/docs/asciidoc/images/image-20220218104500358.png">
 #### 3、使用Git克隆GitHub上spring源码
 
-![image-20220218104913676](.\imgs\image-20220218104913676.png)
-
+# <img src="src/docs/asciidoc/images/image-20220218104913676.png">
 ```bash
 git clone -b 5.2.x https://github.com/spring-projects/spring-framework.git  #克隆spring官方仓库的5.2.x分支
 ```
@@ -70,10 +66,9 @@ git clone -b 5.2.x https://github.com/spring-projects/spring-framework.git  #克
 可以参考克隆下来的的spring源码项目根目录的下的**import-into-idea.md**文件
 
 #### 5、导入idea,并设置gradle
+# <img src="src/docs/asciidoc/images/image-20220218105332935.png">
 
-![image-20220218105332935](.\imgs\image-20220218105332935.png)
-
-![image-20220218105430982](.\imgs\image-20220218105430982.png)
+# <img src="src/docs/asciidoc/images/image-20220218105430982.png">
 
 #### 6、等待构建完成即可
 
